@@ -30,5 +30,6 @@ jobs:
 
     - name: Compile 32 bits binary
       run: |
+        apt install g++-multilib
         make clean
         make VERSION=legacy OS=Linux CXX="g++ -m32"

@@ -32,4 +32,4 @@ jobs:
       run: |
         export LDFLAGS=--static
         make clean
-	      make VERSION=legacy OS=Windows_NT CXX=g++
+        make VERSION=legacy OS=Windows_NT CXX=g++
